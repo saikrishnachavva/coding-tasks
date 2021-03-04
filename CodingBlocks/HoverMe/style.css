@@ -1,0 +1,25 @@
+body{
+  background-image: url(./backgroundImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+    height: 25px;
+    width: 100px;
+    margin: 250px auto;
+    transition: box-shadow  ease-in 0.2s,transform ease-in 0.2s;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#d4f1f9 ;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px aqua;
+  }
+  
+ div:hover{
+    box-shadow: 10px 10px 16px -6px rgb(66, 68, 68);
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
