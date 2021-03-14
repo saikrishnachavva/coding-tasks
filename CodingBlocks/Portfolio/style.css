@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Styles for body */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  font-family: cursive;
+  line-height: 30px;
+}
+/* CSS for Flex */
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.wrapper .sidedetails {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  background: #040b14;
+}
+.wrapper .main_content {
+  margin-left: 250px;
+}
+/* Styling for left side contents  */
+figure img {
+  width: 60%;
+  margin: 50px auto;
+  border: 5px solid grey;
+  border-radius: 50%;
+  margin: 50px 0px 8px;
+}
+text-center {
+  text-align: center;
+}
+i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.aboutme {
+  color: #fff;
+}
+.intro i {
+  margin: 10px auto;
+}
+td.details {
+  padding: 10px;
+  transition: all 0.2s ease-in;
+}
+.intro {
+  margin-top: 10px;
+}
+.intro table {
+  margin-left: 20px;
+}
+.intro .details:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+/* Styling for the paragraphs section main content */
+h4 {
+  display: inline-block;
+}
+h4 {
+  font-weight: bold;
+  opacity: 0.9;
+}
+.socialmedia i:hover {
+  cursor: pointer;
+}
+h4 {
+  font-family: "Acme", sans-serif;
+
+  color: black;
+}
+h5 {
+  font-family: "Merriweather", serif;
+}
+.row {
+  margin-top: 20px;
+}
+main {
+  padding: 15px;
+}
+.intro a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Styling for horizontal line  */
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+/* Animation for underline for the side headings */
+h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 50%;
+  background: blue;
+  animation-name: underlineheader;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes underlineheader {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+h4 {
+  position: relative;
+}
+
+/* Stying for progress bar bootstrap for animation */
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+}
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
