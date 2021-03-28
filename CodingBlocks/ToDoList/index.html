@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <section>
+            <h1 id="title">TO DO LIST</h1>
+            
+            <div>
+                <label for="new-task"><h5>Add Tasks</h5></label>
+                <input id="new-item" type="text">
+                <button onclick="addToDoTask()" id="add-list">Add</button>
+            </div>
+            <hr>
+        </section>
+        <section class="listDetails">
+            <h4>List</h4>
+            <ul id="todoList">
+
+            </ul>
+        </section>
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
